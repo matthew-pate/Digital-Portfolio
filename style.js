@@ -17,9 +17,7 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
-$(document).on('ready', function () {
-  cookiesPolicyBar()
-});
+
 
 
 function prodsupportFunction() {
