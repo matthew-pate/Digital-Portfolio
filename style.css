@@ -1,0 +1,374 @@
+/*Import social icons*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+/*Import social icons*/
+
+/*Main schemes*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%
+  font-family 'Roboto', sans-serif; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  background-image: url('./kara-eads-OG84g8FREK4-unsplash.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+  color:#304B62;
+}
+
+a:hover{
+  color:#AE1B01;
+}
+
+h1 {
+  color:maroon;
+  text-align: center;
+  margin: 10px;
+}
+
+.header{
+  border-bottom: 1px solid #E2E8F0;
+}
+
+/* Nav */
+
+.nav-logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  }
+  
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-item {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline;
+  padding: 8px;
+
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Nav */
+
+/*Main schemes*/
+
+/*Landing page*/
+
+#main-image {
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+#titleText {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.close {
+  height: 20px;
+  background-color: #777;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/*Landing page*/
+
+/*About page*/
+
+#about-content {
+  background-color: rgb(211,211,211, 0.8);
+min-height: 550px;
+width: 100%;
+}
+
+.img2 {
+  float: left;
+}
+
+#img2 {
+  width: 400px;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.about-column {
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 50px;
+  padding-top: 70px;
+}
+
+ /*About page*/
+
+/*Resume page*/
+
+  #resumelinks {
+  color:black;
+  text-align: center;
+  }
+
+.row {
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.resume-content{
+  flex: 50%;
+  padding-left: 100px;
+  padding-top: 25px;
+  background-color: rgb(234,237,242, 0.6);
+  overflow: scroll;
+  width: 100%;
+  height: 500px;
+}
+
+#moreprodsupport, #morecs, #moresem, #moreld,  #moreapple, #moreminacs {
+  display: none;
+}
+
+/*Resume page*/
+
+/*Portfolio page*/
+
+.iOS-Calc-img {
+padding: 60px;
+  width: 300px;
+  height: 300px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.5;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.iOS-Calc-img:hover {
+  opacity: 1;
+}
+
+/*Portfolio page*/
+
+/*Blog page*/
+.iframe-container{
+  position:relative ;
+  overflow: scroll;
+  width: 100%;
+  padding-top: 75%;
+}
+
+.music-blog{
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 55%;
+}
+
+/*Blog page*/
+
+/*Volunteer page*/
+
+.another-volunteer {
+  display: none;
+}
+.volunteer-content {
+  flex: 50%;
+  padding-left: 100px;
+  padding-top: 25px;
+  background-color: rgb(234,237,242, 0.6);
+  overflow: scroll;
+  width: 100%;
+  height: 500px;
+}
+
+/*Volunteer page*/
+
+/*Contact page*/
+
+#contact-form {
+  display: block;
+  text-align: center;
+  background-color: rgb(211,211,211, 0.8);
+  width: 70%;
+  margin: auto;
+  padding: 25px 25px;
+  border-radius: 10%;
+}
+
+input, textarea, select {
+  font-size: 14px;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+#comments{
+  height: 100px;
+  display:block;
+  margin: auto;
+  text-align:start; 
+}  
+
+.social-buttons{
+    font-size: 32px;
+    min-width: 225px;
+    color: #2d4b5e;
+  }
+
+  .fa, .fab, .fad, .fal, .far, .fas {
+    height: 24px;
+    width: 24px;
+    margin: 8px;
+  }
+
+  /*Contact page*/
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 600px;
+    background-color: #fafafa;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+
+.nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+.nav-menu.active {
+  right: 0;
+  color:#304B62;
+  z-index: 1;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hamburger.active .bar:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+transform: translateY(-8px) rotate(-45deg);
+}
+
+#about-content {
+  background-color: rgb(211,211,211, 0.8);
+  width:100%
+}
+
+.img2 {
+  margin-left: -20px;
+}
+
+#img2 {
+margin-left: 20px;
+}
+
+.about-column {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 50px;
+  padding-top: 520px;
+  margin-right: 50px;
+} 
+
+.iframe-container{
+    position:relative;
+    overflow: scroll;
+    width: 100%;
+    padding-top: 75%;
+  }
+  
+  .music-blog{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    bottom: 60px;
+    right: 25px;
+    width: 90%;
+    height: 5000px;
+  }
+
+  .img2, .resume-content, .volunteer-content, .about-column {
+    flex: 100%;
+    padding-left: 100px;
+    width: 100%;
+    flex: 100%;
+} 
+}
