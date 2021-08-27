@@ -273,11 +273,11 @@ input, textarea, select {
     background-color: #fafafa;
   }
 
-  .disclaimer-content{
+  .disclaimer-content, .privacy-content{
     display: block;
     text-align: left;
     background-color: rgb(211,211,211, 0.8);
-    width: 50%;
+    width: 75%;
     margin: auto;
     padding: 25px 25px;
   
